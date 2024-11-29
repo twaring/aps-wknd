@@ -10,8 +10,8 @@
       "url": "https://experience.adobe.com/aem/generate-variations",
       "passConfig": true,
       "environments": ["preview","live", "edit"],
-      "includePaths": ["**.docx**"],
-  
+      "includePaths": ["**.docx**"]
+    },{
 
       "id": "asset-library",
           "title": "My Assets",
