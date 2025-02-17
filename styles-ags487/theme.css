@@ -4085,15 +4085,15 @@ textarea {
   padding: 0.5625rem 1rem 0.6875rem;
 }
 .cmp-navigation__item--level-0:hover > .cmp-navigation__item-link {
-  color: #000;
+  color: #ffffff;
 }
 .cmp-navigation__item--level-0:focus {
-  border: 0.125em solid #436eff;
+  border: 0.125em solid #ffffff;
   border-radius: 0.25em;
   outline: none;
 }
 .cmp-navigation__item--level-0:focus .cmp-navigation__item-link {
-  color: #000;
+  color: #ffffff;
 }
 .cmp-navigation__item--level-0 > .cmp-navigation__group {
   z-index: 1;
@@ -4150,7 +4150,7 @@ textarea {
   color: #000;
 }
 .cmp-navigation__item-link {
-  color: #455a64;
+  color: #ffffff;
   text-decoration: none;
   display: block;
 }
@@ -4169,7 +4169,7 @@ textarea {
   position: relative;
 }
 .cmp-languagenavigation span {
-  color: #455a64;
+  color: #ffffff;
   vertical-align: middle;
 }
 .cmp-languagenavigation span:before {
