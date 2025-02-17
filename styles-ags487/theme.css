@@ -5029,7 +5029,7 @@ textarea {
   height: -moz-fit-content;
   height: fit-content;
   color: #fff;
-  background-color: #2954ff;
+  background-color: #012171;
   border: 0.125em solid #2954ff;
   border-radius: 1.56em;
   margin-top: 0.5em;
@@ -5041,7 +5041,7 @@ textarea {
   border-color: #103be6;
 }
 .cmp-form-button:focus {
-  background-color: #436eff;
+  background-color: #012171;
   border-color: #fff;
   outline: none;
   box-shadow: 0 0 0 0.125em #436eff;
