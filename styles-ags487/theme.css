@@ -4804,6 +4804,7 @@ textarea {
   border-top: 0.125em solid #eceff1;
   margin-top: 5em;
   padding: 1.625em 0 1.5625em;
+  background-color: #1e1a40;
 }
 #main-footer .h6_style .cmp-title__text {
   margin-left: 5rem;
