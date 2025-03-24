@@ -3518,7 +3518,7 @@ textarea {
   text-decoration: none;
 }
 .cmp-teaser__action-link:first-child {
-  background-color: #ff29b8;
+  background-color: #fe0000;
   border: 0.125em solid #2954ff;
 }
 .cmp-teaser__action-link:first-child:hover {
