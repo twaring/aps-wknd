@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Person Details API
+  version: 1.0.0
+  description: API for managing person details
+paths:
+  /persons:
+    get:
+      summary: Get list of persons
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Person'
+    post:
+      summary: Create a new person
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Person'
+      responses:
+        '201':
+          description: Person created successfully
+components:
+  schemas:
+    Person:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: First name of the person
+        secondName:
+          type: string
+          description: Second name of the person
+        dob:
+          type: string
+          format: date
+          description: Date of birth of the person
+        address:
+          type: string
+          description: Address of the person
+        telephoneNumber:
+          type: string
+          description: Telephone number of the person
+      required:
+        - firstName
+        - secondName
+        - dob
+        - address
+        - telephoneNumber
